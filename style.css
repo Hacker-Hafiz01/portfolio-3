@@ -1,0 +1,434 @@
+@media (min-width: 1000px) {
+    /* ALL START */
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    a{
+        list-style-type: none;
+        text-decoration: none;
+        color: #ADADAD;
+    }
+
+    li{
+        margin-left: 15px;
+        cursor: pointer;
+    }
+
+    body{
+        background-color: #ECEFF4;
+        font-family: 'Roboto', sans-serif;
+        }
+
+    /* ALL FINISH */
+    
+    /* HEADER START */
+    
+    .head{ 
+       display: flex;
+       background-color: #262626; 
+    }
+    .logo{
+     display: flex;
+    }
+
+    .logo>div>img{
+     width: 57px;
+     height: 44px;
+     margin-left: 50px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    }
+
+    .logo>div>h1{
+        color: white;
+        margin: 15px;
+    }
+    
+    .navigator>.nav1>nav>ul{
+        list-style-type: none;
+        display: flex;
+        color: #ADADAD;
+        padding-top: 18px;
+        margin-top: 10px;
+    }
+
+    #products{
+        cursor: pointer;
+    }
+    
+    .navigator{
+        margin-left: 53%;
+    }
+    .lokm{
+        display: none;
+    }
+     
+    .nav2>ul{
+        list-style-type: none;
+        display: flex;
+        margin-left: 150px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+
+    .icon{
+        margin-left: 5px;
+    }
+
+    .nav2{
+        border: 1px solid #E1E9ED;
+        background-color: #F5F5F5;
+        }
+     /* HEADER FINISH */
+
+
+    .start-bd{
+        display: flex;
+    }
+
+    .serthem {
+        margin-top: 150px;
+        margin-left: 150px;
+    }
+
+    .img-them{
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+
+    .serthem>p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .themser{
+        background-color: white;
+        border: none;
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        padding-right: 5px;
+        padding-left: 35px;
+        margin-top: 5px;   
+    }
+    .inser{
+        background-color: white;
+        border-radius: 15px;
+        padding: 5px;
+        display: flex;
+    }
+
+    .btn-inser{
+        margin-left: 200px;
+        width: 90px;
+        height: 60px;
+        border: none;
+        background-color: green;
+        color: white;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+
+    /* THEMES START */
+
+    .option{
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px; /* Расстояние между блоками */
+        margin-left: 225px;
+        margin-top: 100px;
+    }
+
+    .product{
+        margin-right: 210px;
+        background-color: white;
+        border-radius: 15px;
+        margin-bottom: 27px;
+        padding: 25px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .hv{
+        border: none;
+        background-color: white;
+        transition: backround-color 0,7 ease;
+    }
+
+    .hv:hover{
+        cursor: pointer;
+        background-color: #262626;
+        color: white;
+        width: 20%;
+        padding: 5px;
+        transition: backround-color 0,7 ease;
+    }
+
+    .imeg{
+        width: 275px;
+        height: 200px;
+    }
+
+    footer{
+        background-color:#262626;    
+    }
+
+    .end{
+        margin-left: 800px;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 900px) {
+    /* ALL START */
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    a{
+        list-style-type: none;
+        text-decoration: none;
+        color: #ADADAD;
+    }
+
+    li{
+        margin-left: 15px;
+        cursor: pointer;
+    }
+
+    body{
+        background-color: #ECEFF4;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        }
+
+    /* ALL FINISH */
+    
+    /* HEADER START */
+    
+    .head{ 
+       display: flex;
+       background-color: #262626; 
+    }
+    .logo{
+     display: flex;
+    }
+
+    .logo>div>img{
+     width: 57px;
+     height: 44px;
+     margin-left: 50px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+    }
+
+    .logo>div>h1{
+        color: white;
+        margin: 15px;
+    }
+    
+    .navigator>.nav1>nav>ul{
+        display: none;
+    }
+    
+    .navigator{
+        margin-left: 5%;
+    }
+
+    .lokm{
+        display: block;
+        color: #ADADAD;
+    }
+
+    #lop{
+        font-size: 40px;
+    }
+
+    .menu-el{
+        font-size: 50px;
+        margin-left: 245px;
+    }
+
+
+
+    /* menu */
+    #dropdown-menu {
+        position: absolute;
+        background-color: #f1f1f1;
+        width: 120px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-right: 5px;
+    }
+    #dropdown-menu ul {
+        list-style-type: none;
+        padding: 0;
+        margin-right: 5px;
+    }
+    #dropdown-menu ul li {
+        padding: 5px 8px;
+        text-align: left;
+        font-size: 10px;
+    }
+    
+    /* menu f */
+     
+    .nav2>ul{
+        list-style-type: none;
+        display: flex;
+        margin-left: 150px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+    }
+
+    .icon{
+        margin-left: 5px;
+    }
+
+    .nav2{
+        border: 1px solid #E1E9ED;
+        background-color: #F5F5F5;
+        }
+     /* HEADER FINISH */
+
+
+    .start-bd{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .serthem {
+        margin-top: 150px;
+        margin-left: 30px;
+    }
+
+    .img-them{
+        margin-left: 1px;
+        margin-top: 50px;
+        
+    }
+
+    .web{
+        width: 650px;
+        height: 500px;
+    }
+
+    .serthem>p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .themser{
+        background-color: white;
+        border: none;
+        width: 200px;
+        height: 50px;
+        font-size: 15px;
+        padding-right: 5px;
+        padding-left: 25px;
+        margin-top: 5px;   
+    }
+    .inser{
+        background-color: white;
+        border-radius: 15px;
+        padding: 2px;
+        display: flex;
+        width: 350px;
+        margin-left: 135px;
+    }
+
+    .btn-inser{
+        margin-left: 40px;
+        width: 60px;
+        height: 60px;
+        border: none;
+        background-color: green;
+        color: white;
+        border-radius: 15px;
+        font-size: 15px;
+    }
+
+    /* THEMES START */
+
+    .option{
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px; /* Расстояние между блоками */
+        margin-left: 225px;
+        margin-top: 225px;
+    }
+
+    .product{
+        margin-right: 210px;
+        background-color: white;
+        border-radius: 15px;
+        margin-bottom: 27px;
+        padding: 25px;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .imeg{
+        width: 275px;
+        height: 200px;
+    }
+
+    footer{
+        background-color:#262626;    
+    }
+
+    .end{
+        margin-left: 280px;
+    }
+
+
+    
+}
+
+
+
+
